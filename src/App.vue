@@ -4,6 +4,7 @@
       <div>
         <Header />
         <Main />
+        <Icon />
         <Footer />
       </div>
     </section>
@@ -13,6 +14,7 @@
 <script>
 import Header from './components/Header.vue'
 import Main from './components/Main.vue'
+import Icon from './components/Icon.vue'
 import Footer from './components/Footer.vue'
 
 export default {
@@ -20,6 +22,7 @@ export default {
   components: {
     Header,
     Main,
+    Icon,
     Footer,
   }
 }

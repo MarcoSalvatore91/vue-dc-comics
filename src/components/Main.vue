@@ -8,10 +8,6 @@
       </div>
     </section>
 
-    <!-- # TO DO COMPLETE -->
-    <section id="info">
-
-    </section>
   </div>
 </template>
 
@@ -29,9 +25,8 @@ h2 {
     line-height: 150px;
   }
 
-#info {
-  background-color: rgb(2,130,249);
-  height: 160px;
-}
+  img {
+    height: 20px;
+  }
 
 </style>
