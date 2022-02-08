@@ -1,8 +1,12 @@
 <template>
   <div>
-    <Header />
-    <Main />
-    <Footer />
+    <section class="bg-dark h-100">
+      <div>
+        <Header />
+        <Main />
+        <Footer />
+      </div>
+    </section>
   </div>
 </template>
 
@@ -23,6 +27,6 @@ export default {
 
 <style lang='scss'>
 
-@import './assets/sass/style.scss'
+@import './assets/sass/style.scss';
   
 </style>
