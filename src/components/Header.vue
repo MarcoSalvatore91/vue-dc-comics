@@ -23,13 +23,6 @@
       </div>
     </section>
 
-    <!-- Contents -->
-    <section id="contents">
-      <div class="container">
-        <h2 class="color-white">-- Content goes here --</h2>
-      </div>
-    </section>
-
   </div>
 </template>
 
@@ -51,10 +44,6 @@ export default {
   margin: 10px 0;
 }
 
-#contents {
-  height: 150px;
-}
-
 ul {
 
   li {
@@ -68,10 +57,6 @@ ul {
     text-decoration: none;
   }
 
-  }
-
-  h2 {
-    line-height: 150px;
   }
 
 </style>
