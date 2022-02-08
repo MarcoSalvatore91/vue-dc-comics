@@ -41,20 +41,17 @@ export default {
 
 #nav-bar {
   height: 150px;
-  margin: 10px 0;
+  margin-top: 30px;
 }
 
 ul {
 
   li {
-    list-style-type: none;
     margin: 0 10px;
   }
 
   a {
-    font-size: 0.8rem;
     color: black;
-    text-decoration: none;
   }
 
   }
