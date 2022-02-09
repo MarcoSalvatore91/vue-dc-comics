@@ -11,6 +11,7 @@ export default {
 </script>
 
 <style scoped lang='scss'>
+
     .top-jumbotron {
         height: 300px;
         background-image: url('../assets/img/jumbotron.jpg');
@@ -18,4 +19,5 @@ export default {
         background-size: 1500px;
         background-repeat: no-repeat;
     }
+    
 </style>
