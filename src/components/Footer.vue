@@ -52,8 +52,13 @@
           <button><span>SIGN-UP NOW</span></button>
         </div>
 
-        <div id="social">
-          <h3>FOLLOW US</h3>
+        <div id="social" class="d-flex">
+          <div>
+            <h3>FOLLOW US</h3>
+          </div>
+          <div>
+            <IconFooter class="d-flex" />
+          </div>
         </div>
 
       </div>
@@ -64,8 +69,13 @@
 </template>
 
 <script>
+import IconFooter from "./IconFooter.vue"
+
 export default {
     name: 'Footer',
+    components: {
+      IconFooter,
+    },
     data() {
     return {
 
@@ -172,6 +182,7 @@ li {
 #social {
   h3 {
     color: rgb(2,130,249);
+    margin-right: 20px;
   }
 }
 
