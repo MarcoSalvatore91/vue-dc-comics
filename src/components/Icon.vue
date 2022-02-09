@@ -1,8 +1,8 @@
 <template>
   <div>
       <section id="info">
-      <div v-for="link in links" :key="link.text">
-        <img :src="`../assets/img/${link.url}`" alt="">
+      <div v-for="(link, index) in links" :key="index">
+        <img :src="require(`../assets/img/${link.url}`)" alt="">
       </div>
     </section>
   </div>
@@ -25,11 +25,15 @@ export default {
 }
 </script>
 
-<style>
+<style scoped lang='scss'>
 
   #info {
   background-color: rgb(2,130,249);
   height: 160px;
+    img {
+      height: 100px;
+    }
   }
+
 
 </style>

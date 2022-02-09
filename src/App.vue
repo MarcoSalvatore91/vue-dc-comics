@@ -4,7 +4,7 @@
       <div>
         <Header />
         <TopJumbotron />
-        <Main />
+        <Main :series="series" />
         <Icon />
         <Footer />
       </div>
